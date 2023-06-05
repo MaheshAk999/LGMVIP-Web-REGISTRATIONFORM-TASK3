@@ -1,0 +1,74 @@
+<html>
+    <head>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <marquee style="background-color:antiquewhite;  font-family:Georgia; font-style:bold; font-size:30px;">  Student Registration Form </marquee> 
+        <div id="div1" align=center>
+        <table class="table">
+            <p id="p" style="background-color: aqua; text-align:center; font-size:25px; padding:15px;"> Enter Details </p>
+            <tr>
+                <td> Name : </td>
+                <td> <input id="name" > </td>
+            </tr>
+            <tr>
+                <td> Course : </td>
+                <td> <input id="course"> </td>
+            </tr>
+            <tr>
+                <td> Email : </td>
+                <td> <input id="email"> </td>
+            </tr>
+            <tr>
+                <td> Image Link : </td>
+                <td> <input id="image"> </td>
+            </tr>
+            <tr> 
+                <td> Gender : </td>
+                <td> <input type="radio" id="male" name="1"> &nbsp; <span>
+                        Male
+                    </span>
+                <br>
+                <input type="radio" id="female" name="1"> &nbsp;  <span> 
+                        Female
+                    </span> 
+             </td>
+            </tr>
+            <tr>
+                <td> Skills : </td>
+                <td>
+                    <input type="checkbox" id="java"> &nbsp;  <span>
+                        Java 
+                    </span>
+                    &nbsp; &nbsp;
+                    <input type="checkbox" id="html"> &nbsp;  <span>
+                        HTML 
+                    </span>
+                    &nbsp; &nbsp;
+                    <input type="checkbox" id="css"> &nbsp;  <span>
+                        CSS 
+                    </span>
+                </td>
+                
+            </tr>
+        </table>
+        <button id="but" onclick="conform()">Enroll </button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <button id="but" onclick="Clear()"> Clear </button>
+    </div> 
+    <div id="div2" align="center">
+        <p id="p" style="background-color: aqua; text-align:center; font-size:25px; padding:15px;"> Enrolled Students </p>
+
+        <table id="table" style="width:100%; padding:0; text-align:center; margin:0;">
+           <tr>
+            <td style="width:70%" id="p">
+                Student Details
+            </td>
+            <td style="width:30%" id="p">
+                Image Link 
+            </td>
+           </tr>
+        </table>
+    </div>
+    </body>
+</html>
